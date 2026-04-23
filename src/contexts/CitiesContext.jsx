@@ -3,7 +3,7 @@ import { useReducer } from "react";
 import { createContext, useContext, useEffect } from "react";
 
 const CitiesContext = createContext();
-const URL = "http://localhost:10000";
+const URL = "https://worldwise-vm5k.onrender.com";
 
 const initialState = {
   cities: [],
