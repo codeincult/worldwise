@@ -3,7 +3,7 @@ import { useReducer } from "react";
 import { createContext, useContext, useEffect } from "react";
 
 const CitiesContext = createContext();
-const URL = "http://localhost:8000";
+const URL = "http://localhost:10000";
 
 const initialState = {
   cities: [],
@@ -70,10 +70,7 @@ function reducer(state, action) {
 }
 
 function CitiesProvider({ children }) {
-  const [{ cities, isLoading, currentCity, error }, dispatch] = useReducer(
-    reducer,
-    initialState,
-  );
+  const [{ cities, isLoading, currentCity, error }, dispatch] = useReducer(reducer, initialState);
 
   // const [cities, setCities] = useState([]);
   // const [isLoading, setIsLoading] = useState(false);

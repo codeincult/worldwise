@@ -47,6 +47,18 @@
         "lng": "-3.7353515625000004"
       },
       "id": "KgP-MoPDxqM"
+    },
+    {
+      "cityName": "Pozoantiguo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2026-04-23T19:22:04.469Z",
+      "notes": "",
+      "position": {
+        "lat": "41.5579215778042",
+        "lng": "-5.449218750000001"
+      },
+      "id": "oDTicrB"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
