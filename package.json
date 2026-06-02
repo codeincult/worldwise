@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vp build",
     "lint": "eslint .",
-    "preview": "vp preview",
+    "preview": "vite preview",
     "prepare": "vp config",
     "server": "json-server --watch data/cities.json --port 8000",
     "start": "node server.cjs"
